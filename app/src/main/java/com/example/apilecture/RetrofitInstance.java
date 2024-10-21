@@ -8,8 +8,24 @@ public class RetrofitInstance {
     GitHubService instance(){
 
 
+        // GET NOTES (DUMMY JSON)
+//        Retrofit retrofit = new Retrofit.Builder()
+//                .baseUrl("https://dummyjson.com/")
+//                .addConverterFactory(GsonConverterFactory.create())
+//                .build();
+
+
+//         POST NOTES (ADD KARAVA MATE)
+//        Retrofit retrofit = new Retrofit.Builder()
+//                .baseUrl("https://service.apikeeda.com")
+//                .addConverterFactory(GsonConverterFactory.create())
+//                .build();
+
+
+
+//                 GET NOTES (GET KARAVA MATE)
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("https://dummyjson.com/")
+                .baseUrl("https://service.apikeeda.com")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 
